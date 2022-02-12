@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+
+a a:hover {
+    color : green
+}
+
+/* ***************************** BARRE ***************************** */
+
+nav {
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 30px 25px;
+}
+#logo {
+    /*font-family: 'UnifrakturMaguntia', sans-serif;
+    font-weight: bold;*/
+
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: 40px;
+    background-size: 64px;
+    float: left;
+}
+#imagePrincipale {
+    padding-top: 250px;
+    background: url(/media/TenderSeriousHusky-max-1mb.gif) no-repeat 0% 0%; 
+    background-color: gray;
+    background-size: cover;
+    height: 800px;
+}
+#imagePrincipale h1 {
+    font-family: 'UnifrakturMaguntia', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 4.5em;
+    margin-top: 40px;
+    text-shadow: 1.5px 2.5px 2px black; 
+}
+#premierTrait{
+    height: 4px;
+    width: 80%;
+    margin: -3px auto;
+    background-color: darkgray;
+    text-shadow: 1px 3px 2px black;
+}
+h3 {
+    text-align: center;
+    color: darkgray;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+button {
+    display: block;
+    font-family:'UnifrakturMaguntia', sans-serif ;
+    background-color: #00588b;
+    border-radius: 10px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 18px 16px;
+    width: 200px;
+    cursor: pointer;
+    margin: auto;
+}
+/* ***************************** PAGE ***************************** */
+
+#presentation {
+    background-color: lightgray;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    text-align: center;
+    font-size:xx-large;
+}
+#Serveur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 10%;
+}
+.imagesServeur h4 {
+    font-family: 'Indie Flower', sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+.imagesServeur img {
+    border-radius: 10px;
+    box-shadow: 5px 80px 50px 4px rgba(0, 0, 0, 0.7);
+}
+.imagesServeur img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+
+#presentation .texteIntro h1 {
+    text-align: center;
+    color:black;
+    font-size: xxx-large;
+}
+
+#presentation .texteIntro p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#règlement {
+    background-color: grey;
+    padding: 10px 0px 100px 0;
+}
+
+#règlement .minecraft1 h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#règlement .minecraft1 img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#règlement .minecraft1 img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+
+#règlement .minecraft2 img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#règlement .minecraft2 img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+/* ***************************** FOOTER ***************************** */
+footer {
+    background-color: black;
+    color:blanchedalmond;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin: 25px auto;
+    display: block;
+}
+.form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+.copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+.copyrightEtIcons .copyright {
+    width: 50%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 40px;
+}
+.copyrightEtIcons .copyright1 h1{
+        text-align: center;
+        font-size: 25px;    
+}
+
+.copyrightEtIcons .copyright1 {
+    text-align: center;
+
+}
+
+.copyrightEtIcons .icons {
+    width: 50%;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+.copyrightEtIcons .icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+.copyrightEtIcons .icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.copyrightEtIcons .copyright .header-logo {
+    float: left;
+    margin-top: -25px;
+}
